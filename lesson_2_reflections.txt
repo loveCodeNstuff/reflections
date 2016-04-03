@@ -1,28 +1,31 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+  To create a .git file that can keep track of your commits and set up a staging area.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+  Staging area is where you code is staged before it is pushed to the working dir and repo.  You can stage a commit and if you don't like it delete it no issue.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  By creating a new commit every time you have a logical change.  That way you staging area has a bunch of commits for each change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+  Branches allow you to make new features and changes to a code base purely independtly from master branch.  That way you can switch easily between the two.
+
 How do the diagrams help you visualize the branch structure?
+
+  Helps wrap your brain around the chaos that is branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+  You take the two branches and create one branch with changes from the branch you use call it from.  Makes more sense that way.
 
-How can you use the staging area to make sure you have one commit per logical change?
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-You may also want to commit your changes to the file. When you're ready to move on, click "Next" and Sarah will go over a concept called branching.
-
-How do the diagrams help you visualize the branch structure?
-
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-
-
+  Auto merging makes life on teams very easy compared to looking at someone elses code and tryig to figure out whats different and merging it.  O the horror!!
