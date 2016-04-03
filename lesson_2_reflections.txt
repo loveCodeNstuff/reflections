@@ -24,3 +24,5 @@ You may also want to commit your changes to the file. When you're ready to move 
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
